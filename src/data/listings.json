@@ -1,0 +1,74 @@
+[
+  {
+    "id": "fitz-golf",
+    "slug": "fitz-golf",
+    "name": "Fitz Golf Coaching",
+    "city": "Portsmouth",
+    "state": "NH",
+    "rate": 95,
+    "indoor": true,
+    "tags": ["beginner-friendly", "short game", "video analysis"],
+    "photo": "https://images.unsplash.com/photo-1541140134513-85a161dc4a00?q=80&w=1200&auto=format&fit=crop",
+    "website": "https://example.com/fitz"
+  },
+  {
+    "id": "seacoast-swing-lab",
+    "slug": "seacoast-swing-lab",
+    "name": "Seacoast Swing Lab",
+    "city": "Dover",
+    "state": "NH",
+    "rate": 120,
+    "indoor": true,
+    "tags": ["trackman", "club fitting", "speed training"],
+    "photo": "",
+    "website": ""
+  },
+  {
+    "id": "maine-green-instruction",
+    "slug": "maine-green-instruction",
+    "name": "Maine Green Instruction",
+    "city": "Kittery",
+    "state": "ME",
+    "rate": 80,
+    "indoor": false,
+    "tags": ["on-course lessons", "beginners", "junior programs"],
+    "photo": "",
+    "website": ""
+  },
+  {
+    "id": "berwick-performance",
+    "slug": "berwick-performance",
+    "name": "Berwick Performance Golf",
+    "city": "Berwick",
+    "state": "ME",
+    "rate": 110,
+    "indoor": true,
+    "tags": ["putting", "wedge play", "aimpoint"],
+    "photo": "",
+    "website": ""
+  },
+  {
+    "id": "great-bay-coach",
+    "slug": "great-bay-coach",
+    "name": "Great Bay Coach",
+    "city": "Durham",
+    "state": "NH",
+    "rate": 100,
+    "indoor": false,
+    "tags": ["college prep", "swing plane"],
+    "photo": "",
+    "website": ""
+  },
+  {
+    "id": "york-simulator-studio",
+    "slug": "york-simulator-studio",
+    "name": "York Simulator Studio",
+    "city": "York",
+    "state": "ME",
+    "rate": 130,
+    "indoor": true,
+    "tags": ["sim rentals", "lessons", "club gapping"],
+    "photo": "",
+    "website": ""
+  }
+]
