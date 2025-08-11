@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import ListingCard from "../components/ListingCard.jsx";
 import FilterBar from "../components/FilterBar.jsx";
 import { fetchListings } from "../api/listings.js";

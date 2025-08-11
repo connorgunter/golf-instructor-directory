@@ -19,14 +19,14 @@ export default function Navbar() {
           >
             Listings
           </NavLink>
-          <a
-            href="https://forms.gle/"
-            target="_blank"
-            rel="noreferrer"
+
+          {/* Use an internal link to /submit */}
+          <NavLink
+            to="/submit"
             className="px-3 py-1.5 rounded-lg bg-slate-900 text-white hover:bg-slate-800"
           >
             Add your listing
-          </a>
+          </NavLink>
         </nav>
       </div>
     </header>

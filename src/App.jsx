@@ -3,6 +3,8 @@ import Home from "./pages/Home.jsx";
 import Listings from "./pages/Listings.jsx";
 import ListingDetail from "./pages/ListingDetail.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import Admin from "./pages/Admin.jsx";
+import AddListing from "./pages/AddListing.jsx";
 import Navbar from "./components/Navbar.jsx";
 
 export default function App() {
@@ -14,6 +16,10 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="/listings" element={<Listings />} />
           <Route path="/listings/:slug" element={<ListingDetail />} />
+
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/submit" element={<AddListing />} />
+
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
